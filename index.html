@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Letter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>To Emily,</strong>
+                        <p>Hi baby, I hope you're doing well whenever you are reading this. I wanted to do something really sweet to show my appreciation and love for you all these years, and every thing that you've done beside and also for me these past years and also recently. Unfortunately im too broke to send you a real letter but hope this will suffice, as my words cannot show you enough that I hold you the dearest within my heart. I cant wait to see you soon, and make the best memories of this summer with you by my side! I love you forever and a day.</br>Torrin</p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () =>{
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
